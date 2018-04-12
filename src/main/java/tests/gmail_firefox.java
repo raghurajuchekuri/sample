@@ -26,8 +26,7 @@ public class gmail_firefox {
 	  public void googleopen() throws Throwable {
 		  
 		  Thread.sleep(5000);
-		  driver.get("https://google.co.in");
-		
+		  driver.get("https://google.co.in");		
 		
 	  }
 	   
