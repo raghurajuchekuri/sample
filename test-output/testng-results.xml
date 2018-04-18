@@ -2,38 +2,38 @@
 <testng-results skipped="0" failed="0" total="3" passed="3">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="27016" started-at="2018-04-12T06:41:38Z" finished-at="2018-04-12T06:42:05Z">
+  <suite name="Suite" duration-ms="29193" started-at="2018-04-13T11:55:32Z" finished-at="2018-04-13T11:56:01Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="27016" started-at="2018-04-12T06:41:38Z" finished-at="2018-04-12T06:42:05Z">
+    <test name="Test" duration-ms="29193" started-at="2018-04-13T11:55:32Z" finished-at="2018-04-13T11:56:01Z">
       <class name="tests.NewTest">
-        <test-method status="PASS" signature="beforeClass()[pri:0, instance:tests.NewTest@61832929]" name="beforeClass" is-config="true" duration-ms="5366" started-at="2018-04-12T12:11:38Z" finished-at="2018-04-12T12:11:44Z">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:tests.NewTest@61832929]" name="beforeClass" is-config="true" duration-ms="5230" started-at="2018-04-13T17:25:32Z" finished-at="2018-04-13T17:25:37Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method status="PASS" signature="openMyBlog()[pri:0, instance:tests.NewTest@61832929]" name="openMyBlog" duration-ms="844" started-at="2018-04-12T12:11:44Z" finished-at="2018-04-12T12:11:44Z">
+        <test-method status="PASS" signature="openMyBlog()[pri:0, instance:tests.NewTest@61832929]" name="openMyBlog" duration-ms="1053" started-at="2018-04-13T17:25:37Z" finished-at="2018-04-13T17:25:38Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openMyBlog -->
-        <test-method status="PASS" signature="test2()[pri:0, instance:tests.NewTest@61832929]" name="test2" duration-ms="961" started-at="2018-04-12T12:11:44Z" finished-at="2018-04-12T12:11:45Z">
+        <test-method status="PASS" signature="test2()[pri:0, instance:tests.NewTest@61832929]" name="test2" duration-ms="1190" started-at="2018-04-13T17:25:38Z" finished-at="2018-04-13T17:25:39Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test2 -->
-        <test-method status="PASS" signature="afterClass()[pri:0, instance:tests.NewTest@61832929]" name="afterClass" is-config="true" duration-ms="1108" started-at="2018-04-12T12:11:45Z" finished-at="2018-04-12T12:11:46Z">
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:tests.NewTest@61832929]" name="afterClass" is-config="true" duration-ms="1164" started-at="2018-04-13T17:25:39Z" finished-at="2018-04-13T17:25:41Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterClass -->
       </class> <!-- tests.NewTest -->
       <class name="tests.gmail_firefox">
-        <test-method status="PASS" signature="beforeClass()[pri:0, instance:tests.gmail_firefox@18be83e4]" name="beforeClass" is-config="true" duration-ms="9696" started-at="2018-04-12T12:11:46Z" finished-at="2018-04-12T12:11:56Z">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:tests.gmail_firefox@18be83e4]" name="beforeClass" is-config="true" duration-ms="9598" started-at="2018-04-13T17:25:41Z" finished-at="2018-04-13T17:25:50Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method status="PASS" signature="googleopen()[pri:0, instance:tests.gmail_firefox@18be83e4]" name="googleopen" duration-ms="7117" started-at="2018-04-12T12:11:56Z" finished-at="2018-04-12T12:12:03Z">
+        <test-method status="PASS" signature="googleopen()[pri:0, instance:tests.gmail_firefox@18be83e4]" name="googleopen" duration-ms="8181" started-at="2018-04-13T17:25:50Z" finished-at="2018-04-13T17:25:58Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- googleopen -->
-        <test-method status="PASS" signature="afterClass()[pri:0, instance:tests.gmail_firefox@18be83e4]" name="afterClass" is-config="true" duration-ms="1894" started-at="2018-04-12T12:12:03Z" finished-at="2018-04-12T12:12:05Z">
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:tests.gmail_firefox@18be83e4]" name="afterClass" is-config="true" duration-ms="2746" started-at="2018-04-13T17:25:58Z" finished-at="2018-04-13T17:26:01Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterClass -->
