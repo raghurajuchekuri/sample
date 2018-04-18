@@ -15,7 +15,7 @@ public class gmail_firefox {
 	  public void beforeClass() {
 	   
 		
-	   System.setProperty("webdriver.gecko.driver", "E:\\geckodriver.exe");
+	   System.setProperty("webdriver.gecko.driver", "src\\\\main\\\\resources\\geckodriver.exe");
 	   driver = new FirefoxDriver();
 	    driver.manage().window().maximize();
 	   

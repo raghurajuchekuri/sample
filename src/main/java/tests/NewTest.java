@@ -18,7 +18,7 @@ public class NewTest {
 	@BeforeClass
 	  public void beforeClass() {
 	   
-	   System.setProperty("webdriver.chrome.driver", "E:\\chromedriver.exe");
+	   System.setProperty("webdriver.chrome.driver", "src\\main\\resources\\chromedriver.exe");
 	   driver = new ChromeDriver();
 	   driver.manage().window().maximize();
 	   
