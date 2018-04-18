@@ -3,7 +3,11 @@
   <groupId>Maven_Package</groupId>
   <artifactId>Maven_Project</artifactId>
   <version>0.0.1-SNAPSHOT</version>
-  
+  <properties>
+      <jre.level>1.8</jre.level>
+      <jdk.level>1.8</jdk.level>
+   </properties>
+   
   <dependencies>
  
  <!-- Selenium -->
@@ -21,11 +25,23 @@
    <scope>test</scope>
  </dependency> 
  
+
+ 
+ 
   </dependencies>
   
   <build>
   	<plugins>
-   <plugin>
+  	<plugin>
+            <groupId>org.apache.maven.plugins</groupId>
+            <artifactId>maven-compiler-plugin</artifactId>
+            <version>3.5.1</version>
+            <configuration>
+               <source>${jdk.level}</source>
+               <target>${jdk.level}</target>
+            </configuration>
+         </plugin>
+   <!-- <plugin>
    <groupId>org.apache.maven.plugins</groupId>
            <artifactId>maven-compiler-plugin</artifactId>
            <version>3.6.1</version>
@@ -33,7 +49,7 @@
            <source>1.8</source>
            <target>1.8</target>
            </configuration>
-   </plugin>
+   </plugin> -->
    
    <plugin>
    <groupId>org.apache.maven.plugins</groupId>
