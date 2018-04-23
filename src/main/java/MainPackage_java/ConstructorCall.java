@@ -13,6 +13,12 @@ public class ConstructorCall {
 		System.out.println(c.x); //10
 		System.out.println(c.y); //12.5		
 		System.out.println(c.s); //raghu
+		
+		
+		Constructos c2 = new Constructos((float) 59.8,"raj");
+		
+		System.out.println(c2.y); //59.8		
+		System.out.println(c2.s); //raj
 
 	}
 

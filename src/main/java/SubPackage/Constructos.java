@@ -10,7 +10,7 @@ public class Constructos {
 	public String s;
 	
 	
-	//Constructor method
+	//Constructor method without args
 	
 	public Constructos()
 	{
@@ -19,5 +19,16 @@ public class Constructos {
 		s="raghu";
 		
 	}
+	
+	
+	//Constructor method with args
 
+	public Constructos(float a, String b)
+	{
+		
+		y=a;
+		s=b;
+		
+	}
+	
 }
