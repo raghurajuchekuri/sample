@@ -10,10 +10,16 @@ import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 
+import SubPackage.JSON_Reader;
+
 public class NewTest {
 	
 	public WebDriver driver;
 	
+	JSON_Reader obj_JSON_Reader = new JSON_Reader();
+	
+	/*String uname1 = obj_JSON_Reader.uname ;	
+	String pwd1 = obj_JSON_Reader.pwd;*/
 	
 	@BeforeClass
 	  public void beforeClass() {
@@ -33,14 +39,17 @@ public class NewTest {
 	  }
 	  
 	  @Test
-	  public void test2() {  		  
+	  public void test2() throws Throwable {  		  
 		 
 		  	WebDriverWait wait = new WebDriverWait(driver, 5);
 	        wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//input[@name='username']")));
 		  
-		    driver.findElement(By.xpath("//input[@name='username']")).sendKeys("xxxxs");
-			driver.findElement(By.xpath("//input[@name='password']")).sendKeys("xxx");
+		    driver.findElement(By.xpath("//input[@name='username']")).sendKeys("uname1");
+		    Thread.sleep(2000);
+			driver.findElement(By.xpath("//input[@name='password']")).sendKeys("pwd1");
+			Thread.sleep(2000);
 			driver.findElement(By.xpath("//input[@id='loginBTN']")).click();	
+			Thread.sleep(2000);
 			
 	  }
 	  

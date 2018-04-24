@@ -3,7 +3,7 @@
   <test name="Test">
     <classes>
       <class name="tests.NewTest"/>
-      <class name="tests.gmail_firefox"/>
+     <!--  <class name="tests.gmail_firefox"/> -->
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
