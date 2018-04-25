@@ -34,7 +34,7 @@ public class JSON_Reader {
 		
 		        System.out.println("uname: " + uname);
 		        System.out.println("pwd: " + pwd);
-		        System.out.println("\nDetails:");
+		        System.out.println("\ndetails:");
 		        Iterator<String> iterator = details.iterator();
 		        while (iterator.hasNext()) {
 		            System.out.println(iterator.next());
