@@ -18,6 +18,7 @@ public class NewTest {
 	
 	JSON_Reader obj_JSON_Reader = new JSON_Reader();
 	
+	
 	/*String uname1 = obj_JSON_Reader.uname ;	
 	String pwd1 = obj_JSON_Reader.pwd;*/
 	
